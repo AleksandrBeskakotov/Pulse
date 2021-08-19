@@ -17,4 +17,16 @@
             margin-bottom: 20px;
         }
     }
+    &_mt25 {
+        margin-top: 25px;
+    }
+    .error {
+        border: 1px solid $main_color;
+    }
+    label.error {
+        border: none;
+        margin-bottom: 15px;
+        text-align: center;
+        color: red;
+    }
 }
